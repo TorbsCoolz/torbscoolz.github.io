@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "I guess this is a blog now!"
+title:  "I guess this is a blog now! (Although not actually)"
 date:   2020-11-10 20:00:00 -0600
 categories: Introductions
 ---
