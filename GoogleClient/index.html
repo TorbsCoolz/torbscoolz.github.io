@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" type="image/jpg" href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Google_favicon.png/468px-Google_favicon.png"/>
+    <!-- favicon (to change just put an image url after the href=" -->
+    <title>TorbsCoolz' Google Client</title>
+    <!-- Menu Bar Title -->
+    <style>
+        ul,h1{
+            font-family: Times;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body vlink="blue" align="left">
+    
+<br>    
+<br>
+    
+<div align="center">
+    <body bgcolor="#FFFFFF">
+        <form id="search-form" method="get" action="https://www.google.com/search">
+        <!-- This is where the image is (below) To change it just replace the image url in the "" after href= -->
+        <img src="https://web.archive.org/web/19981111183552id_/http://google.stanford.edu/google.jpg" width="351" height="113" alt="Google!">
+        <br>
+        <table border="0" cellspacing="0" celpadding="5" width="70%">
+        <tbody>
+            <tr>
+                <td align="center" bgcolor="#EEEEEE">
+                     Search the web using Google!
+                <br>
+                    <input type="search" name="q" value="" size="40" x-webkit-speech id="sbi" autofocus>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" bgcolor="#EEEEEE">
+                    <select name="num">
+                        <option value="10" selected>10 results</option><option value="30">30 results</option><option value="100">100 results</option>
+                    </select>
+                    <input type="submit" value="Google Search" />
+                    <input type="button" value="I'm Feeling Lucky" onclick="document.location.href = 'https://www.google.com/search?btnI=1&q=' + escape(document.getElementById('sbi').value)" />
+                    <br>
+                    <i>Index contains ~130 trillion pages (soon to be much bigger)</i>
+                </td>
+            </tr>
+        </table>
+        </form>
+    </body>
+</div>  
+</body>
+</html>
