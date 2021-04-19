@@ -8,8 +8,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-ul,h1{
-    ont-family: Times;
+body{
+    font-family: Times;
 }
 
 .topnav {
@@ -72,14 +72,14 @@ ul,h1{
   <a href="https://torbscoolz.github.io/resume/index.html">Resume</a>
   <a href="https://torbscoolz.github.io/contact/index.html">Contact</a>
   <a href="https://torbscoolz.github.io/GoogleClient/index.html" class="active">Custom Google</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <a href="javascript:void(0);" class="icon" onclick="myTopnav()">
     <i class="fa fa-bars"></i>
   </a>
 </div>
 
 <!-- I'm just keeping this near the div for the top bar -->
 <script>
-function myFunction() {
+function myTopnav() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
@@ -104,7 +104,7 @@ function myFunction() {
                 <td align="center" bgcolor="#EEEEEE">
                      Search the web using Google!
                 <br>
-                    <input type="search" name="q" value="" size="40" x-webkit-speech id="sbi" autofocus>
+                    <input type="search" name="q" value="" size="40" autofocus>
                 </td>
             </tr>
             <tr>
