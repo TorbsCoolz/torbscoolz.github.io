@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -101,7 +102,7 @@ function myFunction() {
                 <td align="center" bgcolor="#EEEEEE">
                      Search the web using Google!
                 <br>
-                    <input type="search" name="q" value="" size="40" x-webkit-speech id="sbi" autofocus>
+                    <input type="text" id="mySearch" onkeyup="searchFunction()" name="q" value="" size="40" x-webkit-speech id="sbi" autofocus>
                 </td>
             </tr>
             <tr>
@@ -110,23 +111,9 @@ function myFunction() {
                         <option value="10" selected>10 results</option><option value="30">30 results</option><option value="100">100 results</option>
                     </select>
                     <input type="submit" value="Google Search" />
-                    <input type="button" value="I'm Feeling Lucky" onclick="document.location.href = 'https://www.google.com/search?btnI=1&q=' + escape(document.getElementById('sbi').value)" />
+                    <input type="button" value="I'm Feeling Lucky" onclick="document.location.href = 'https://www.google.com/search?btnI=1&q=' + escape(document.getElementById('mySearch').value)" />
                     <br>
                     <i>Index contains ~130 trillion pages (soon to be much bigger)</i>
-                </td>
-            </tr>
-            <tr>
-                <td align="center" bgcolor="#EEEEEE">
-                    <hr width=100% align=center size=3>
-                </td>
-            </tr>
-            <tr>
-                <td align="center" bgcolor="#EEEEEE">
-                    <i>Search Quick-Links</i>
-                    <br>
-                    <input type="text" id="mySearch" onkeyup="searchFunction()" size="40">
-                    <br>
-                    <br>
                 </td>
             </tr>
         </table>
