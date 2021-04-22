@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,6 +11,18 @@
   font-family: Times;
 }
 
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+        
 .topnav {
   overflow: hidden;
   background-color: #EEEEEE;
@@ -65,7 +76,7 @@
 </style>
 </head>
     
-<body vlink="blue" align="left">
+<body align="left">
 
 <div class="topnav" id="myTopnav">
   <a href="https:/torbscoolz.github.io/index.html">Home</a>
@@ -129,7 +140,12 @@ function myTopnav() {
  
 <br>
 
-<div>    
+<div> 
+    <body bgcolor="#FFFFFF">
+    <table border="0" cellspacing="0" celpadding="5" width="30%" align="center">
+    <tbody>
+    <tr>
+    <td align="left" bgcolor="#EEEEEE">
     <ul id="linkIndex">
         <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Email</a></li>
         <li><a href="https://drive.google.com/drive/my-drive">Google Drive</a></li>
@@ -178,7 +194,32 @@ function myTopnav() {
         <li><a href="https://join.nearpod.com">Link to Join a Nearpod</a></li>
         <li><a href="mailto:lvriezen@y115.org"> Compose Email to Ms. Vriezen</a></li>
     </ul>
+    </td>
+    </tr>
+        <br>
+    <tr>
+    <td align="center" bgcolor="#EEEEEE">
+    <hr width=100% align=center size=3>
+    <br>
+    <h1>Fun Links</h1>
+    
+    <a href="http://www.bigclive.com/"><img src="https://i280.photobucket.com/albums/kk164/bigclivedotcom/bluto2.jpg" width="100" height="100" alt="bigclive.com"></a>
+    <br>
+    <a href="https://www.thingiverse.com/"><img src="data:image/png;base64,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" width="100" height="100" alt="thingiverse"></a>
+    <br>
+    <a href="https://www.w3schools.com/html/"><img src="https://i.imgur.com/papcQzP.png" width="100" height="100" alt="W3 Schools HTML Guide"></a>
+    <br>
+    <a href="https://torbscoolz.github.io"><img src="https://cdn.iconscout.com/icon/free/png-512/doctor-who-1-555812.png" width="100" height="100" alt="torbscoolz.github.io"></a>
+    <br>
+    <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/"><img src="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6-0001f16.jpg" width="100" height="100" alt="OCW Python Course">
+    <br>
+    <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/"><img src="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/6-0002f16.jpg" width="100" height="100" alt="OCW Computatuinal Thinking and Data Science Course"></a>
+    </td>
+    </tr>
+    </table>
+    </body>
   </div>
+    
 <script>
 function searchFunction() {
   var input, filter, ul, li, a, i;
@@ -196,9 +237,237 @@ function searchFunction() {
   }
 }
 </script>
+    
+<br>
+<br>
+
+<div>    
+    <body bgcolor="#FFFFFF">
+        <table border="0" cellspacing="0" celpadding="5" width="14%" align="right">
+            <tbody>
+                <tr>
+                    <td align="left">
+                        <p>This website supports:</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <img src="https://web.archive.org/web/20090821182450/http://geocities.com/SiliconValley/Cable/1415/graphics/netscape.gif">
+                        <img src="https://web.archive.org/web/20091027084756/http://www.geocities.com/SiliconValley/Cable/1415/graphics/iexplorer.gif">
+                    </td>
+                </tr>
+                <tr>
+                    <br>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</div>
+    
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" type="image/jpg" href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Google_favicon.png/468px-Google_favicon.png"/>
+    <!-- favicon -->
+    <title>TorbsCoolz' New Tab</title>
+    <!-- Menu Bar Title -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+  font-family: Times;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+        
+.topnav {
+  overflow: hidden;
+  background-color: #EEEEEE;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+</head>
+    
+<body align="left">
+
+<div class="topnav" id="myTopnav">
+  <a href="https:/torbscoolz.github.io/index.html">Home</a>
+  <a href="https://torbscoolz.github.io/resume/index.html">Resume</a>
+  <a href="https://torbscoolz.github.io/contact/index.html">Contact</a>
+  <a href="https://torbscoolz.github.io/GoogleClient/index.html">Custom Google</a>
+  <a href="javascript:void(0);" class="icon" onclick="myTopnav()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<!-- I'm just keeping this near the div for the top bar -->
+<script>
+function myTopnav() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
 <br>    
-<div>
-    <!-- I just put this in to make broad modifications easier later on. It also helps divide the headers and lists -->
+<br>
+    
+<div align="center">
+    <body bgcolor="#FFFFFF">
+        <form id="search-form" method="get" action="https://www.google.com/search">
+        <img src="https://web.archive.org/web/19981111183552id_/http://google.stanford.edu/google.jpg" width="351" height="113" alt="Google!">
+        <br>
+        <table border="0" cellspacing="0" celpadding="5" width="70%">
+        <tbody>
+            <tr>
+                <td align="center" bgcolor="#EEEEEE">
+                     Search the web using Google!
+                <br>
+                    <input type="text" id="mySearch" onkeyup="searchFunction()" name="q" value="" size="40" x-webkit-speech id="sbi" autofocus>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" bgcolor="#EEEEEE">
+                    <select name="num">
+                        <option value="10" selected>10 results</option><option value="30">30 results</option><option value="100">100 results</option>
+                    </select>
+                    <input type="submit" value="Google Search" />
+                    <input type="button" value="I'm Feeling Lucky" onclick="document.location.href = 'https://www.google.com/search?btnI=1&q=' + escape(document.getElementById('mySearch').value)" />
+                    <br>
+                    <i>Index contains ~130 trillion pages (soon to be much bigger)</i>
+                </td>
+            </tr>
+        </table>
+        </form>
+    </body>
+</div>    
+            
+<br>
+
+<hr width=100% align=left size=3>
+    <!-- this is the divider on the page. I used code from bigclive.com to make this -->
+ 
+<br>
+
+<div> 
+    <body bgcolor="#FFFFFF">
+    <table border="0" cellspacing="0" celpadding="5" width="30%" align="center">
+    <tbody>
+    <tr>
+    <td align="left" bgcolor="#EEEEEE">
+    <ul id="linkIndex">
+        <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Email</a></li>
+        <li><a href="https://drive.google.com/drive/my-drive">Google Drive</a></li>
+        <li><a href="https://y115.instructure.com/">Canvas Dashboard</a></li>
+        <li><a href="https://hac2.y115.org/HomeAccess/Account/LogOn?ReturnUrl=%2fHomeAccess%2fClasses%2fClasswork">Home Access Center</a></li>
+        <li><a href="https://www.kahoot.it">Kahoot Join Page</a></li>
+        <li><a href="https://y115.instructure.com/courses/27288">Honors Chemistry Canvas Page</a></li>
+        <li><a href="https://y115.instructure.com/courses/27288/pages/honors-chemistry-outcome-8">Current Unit Chemistry Canvas Link</a></li>
+        <li><a href="https://docs.google.com/document/d/14ZcM66wsaYh45mZYplQmTFUeK1OV4eRt/edit?rtpof=true">Chemistry Current Unit Playlist</a></li>
+        <li><a href="https://drive.google.com/drive/folders/1-hFtRAz8TxiBN510bM9KCVTTcrIHoyqs">Chemistry Google Drive Folder</a></li>
+        <li><a href="https://www.educreations.com/class/lessons/32693511/">Educreations</a></li>
+        <li><a href="https://www.explorelearning.com/">Gizmos</a></li>
+        <li><a href="mailto:jjones@y115.org"> Compose Email to Ms. Jones</a></li>
+        <li><a href="https://y115.instructure.com/courses/26367">Honors English 2 Canvas Page</a></li>
+        <li><a href="https://y115.instructure.com/courses/26367/pages/outcome-4">Current Unit English Canvas Link</a></li>
+        <li><a href="https://drive.google.com/drive/folders/1-G_KSsXjzev0asEbn5VmyeMjTJFX5mgf">Honors English 2 Google Drive</a></li>
+        <li><a href="https://www.noredink.com/login">NoRedInk</a></li>
+        <li><a href="mailto:kcalder@y115.org"> Compose Email to Ms. Calder</a></li>
+        <li><a href="https://y115.instructure.com/courses/27203">Honors Algebra 2 Canvas Page</a></li>
+        <li><a href="https://y115.instructure.com/courses/27203/pages/outcome-7">Current Unit Algebra Canvas Link</a></li>
+        <li><a href="https://drive.google.com/drive/folders/1-nSJos3H0aZDCHxdgdapBU-LZFsKA5Xe">Honors Algebra 2 Drive</a></li>
+        <li><a href="https://www.khanacademy.org/profile/TorbsCoolz/assignments/teacher/kaid_1149110573907276369189516/class/5971324556886016">Khan Academy</a></li>
+        <li><a href="https://sso.rumba.pearsoncmg.com/sso/login?service=https://k12integrations.pearsoncmg.com/ca/dashboard.htm&idpmetadata=https://adfs01.y115.org/federationmetadata/2007-06/federationmetadata.xml">MathXL</a></li>
+        <li><a href="mailto:lheubel@y115.org"> Compose Email to Ms. Huebel</a></li>
+        <li><a href="https://y115.instructure.com/courses/28672">Engineering Canvas Page</a></li>
+        <li><a href="https://docs.google.com/document/d/1qC1_7SRBzv2LSqtD4upaZ08_Sgt9kJ_1nZpvoe1JQOk/edit">Current Unit Engineering Playlist</a></li>
+        <li><a href="https://drive.google.com/drive/folders/1-BqA36NqWReRCGNlDvI8Ic_16zKsLRqP">Engineering Drive Folder</a></li>
+        <li><a href="https://guac.y115.org/#/">Apache Guacamole</a></li>
+        <li><a href="mailto:jkastel@y115.org"> Compose Email to Mr. Kastel</a></li>
+        <li><a href="https://y115.instructure.com/courses/27922">CPR Canvas Page</a></li>
+        <li><a href="https://y115.instructure.com/courses/27922/pages/outcome-5">Current Unit CPR Canvas Page</a></li>
+        <li><a href="https://drive.google.com/drive/folders/1m9zel3u588EWschsLNtinBiL71X0xQkE">CPR Drive Folder</a></li>
+        <li><a href="https://docs.google.com/spreadsheets/d/11JubqxNMJ_IjuikrXxn5w0OcWaAm1kWWAf9bLRSXGuE/edit#gid=0">Workout Plan</a></li>
+        <li><a href="https://docs.google.com/spreadsheets/d/1bS0nxCcNI91snbziGKsI9i_mp7BGlVyyorAValJFbGk/edit?usp=drive_web&ouid=111931291789121053107">Excercise Index</a></li>
+        <li><a href="mailto:tgatlin@y115.org"> Compose Email to Ms. Gatlin</a></li>
+        <li><a href="https://y115.instructure.com/courses/27951">Honors German 2 Canvas Page</a></li>
+        <li><a href="https://y115.instructure.com/courses/27951/pages/lernziel-5-~-outcome-5a">Current Unit German Canvas Page</a></li>
+        <li><a href="https://drive.google.com/drive/folders/1-VUSk7nIjFbSCvJmgFwetyM78vo4Q9KN">Honors German 2 Drive Folder</a></li>
+        <li><a href="mailto:troessler@y115.org"> Compose Email to Frau Roessler</a></li>
+        <li><a href="https://docs.google.com/document/d/13yBCPWOcUAQoWD3i-I_zzFl3BkVyzdX2/edit">Human-Environmental Interaction One-Pager Instructions (DUE APRIL 23RD)</a></li>
+        <li><a href="https://docs.google.com/document/d/1MqCoj1bJ97S0qAzi0DDli-V2qnnR5RU1rGedzBhdsk0/edit">Human Geography Exam Review Schedule 2021</a></li>
+        <li><a href="https://y115.instructure.com/courses/27475">Human Geography Canvas Page</a></li>
+        <li><a href="https://y115.instructure.com/courses/27475/pages/outcome-9">Current Unit Human Geography Canvas Page</a></li>
+        <li><a href="https://drive.google.com/drive/folders/1-gsXhJ-QFZbVN3ooPuWt3wO1m3LfaRnK">Human Geography Drive Folder</a></li>
+        <li><a href="https://apstudents.collegeboard.org/">College Board</a></li>
+        <li><a href="https://join.nearpod.com">Link to Join a Nearpod</a></li>
+        <li><a href="mailto:lvriezen@y115.org"> Compose Email to Ms. Vriezen</a></li>
+    </ul>
+    </td>
+    </tr>
+        <br>
+    <tr>
+    <td align="center" bgcolor="#EEEEEE">
+    <hr width=100% align=center size=3>
+    <br>
     <h1>Fun Links</h1>
     
     <a href="http://www.bigclive.com/"><img src="https://i280.photobucket.com/albums/kk164/bigclivedotcom/bluto2.jpg" width="100" height="100" alt="bigclive.com"></a>
@@ -212,10 +481,55 @@ function searchFunction() {
     <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/"><img src="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6-0001f16.jpg" width="100" height="100" alt="OCW Python Course">
     <br>
     <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/"><img src="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/6-0002f16.jpg" width="100" height="100" alt="OCW Computatuinal Thinking and Data Science Course"></a>
-</div>    
+    </td>
+    </tr>
+    </table>
+    </body>
+  </div>
+    
+<script>
+function searchFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("linkIndex");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
     
 <br>
 <br>
 
+<div>    
+    <body bgcolor="#FFFFFF">
+        <table border="0" cellspacing="0" celpadding="5" width="14%" align="right">
+            <tbody>
+                <tr>
+                    <td align="left">
+                        <p>This website supports:</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <img src="https://web.archive.org/web/20090821182450/http://geocities.com/SiliconValley/Cable/1415/graphics/netscape.gif">
+                        <img src="https://web.archive.org/web/20091027084756/http://www.geocities.com/SiliconValley/Cable/1415/graphics/iexplorer.gif">
+                    </td>
+                </tr>
+                <tr>
+                    <br>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</div>
+    
 </body>
 </html>
