@@ -89,10 +89,30 @@ a:visited {
   <a href="https://torbscoolz.github.io/contact/index.html">Contact</a>
   <a href="https://torbscoolz.github.io/GoogleClient/index.html">Custom Google</a>
   <a href="https://torbscoolz.github.io/repairlogs/repairsearch.html">Repair Log Search</a>
+  <a href="" id="digital" align="right"></a>
   <a href="javascript:void(0);" class="icon" onclick="myTopnav()">
     <i class="fa fa-bars"></i>
   </a>
 </div>
+<script>
+        function addZero(i) {
+          if (i < 10) {
+            i = "0" + i;
+          }
+          return i;
+        }
+
+        function updateClock() {
+          var d = new Date();
+          var x = document.getElementById("digital");
+          var h = addZero(d.getHours());
+          var m = addZero(d.getMinutes());
+          var s = addZero(d.getSeconds());
+          x.innerHTML = h + ":" + m + ":" + s;
+          setTimeout(updateClock, 1000);
+        }
+        updateClock();
+      </script>
 
 <!-- I'm just keeping this near the div for the top bar -->
 <script>
